@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" type="image/svg" href="img/favicon.svg">
-    <link rel="stylesheet" href="css/style.min.css?_v=20220331183220">
+    <link rel="stylesheet" href="css/style.min.css?_v=20220403152540">
     <title>Contact - TechMatix</title>
 </head>
 
@@ -79,30 +79,30 @@
                                 </div>
                             </div>
                             <div class="contact__item _anim-items _anim-no-hide _anim-right">
-                                <form action="#" method="GET" class="contact__form form-feedback" name="form-contact">
-                                    <div class="form-feedback__item">
-                                        <input class="form-feedback__input" type="text" placeholder="Your Name" pattern="[A-z]*[ \t]?[A-z]*[ \t]?[A-z]*">
-                                    </div>
-                                    <div class="form-feedback__item">
-                                        <label class="form-feedback__label" for="input-company">Company Name</label>
-                                        <input class="form-feedback__input" id="input-company" type="text" placeholder="Microsoft">
-                                    </div>
-                                    <div class="form-feedback__item">
-                                        <input class="form-feedback__input" type="tel" placeholder="Phone number" pattern="[0-9]*">
-                                    </div>
-                                    <div class="form-feedback__item">
-                                        <input class="form-feedback__input" type="email" placeholder="Email">
-                                    </div>
-                                    <div class="form-feedback__item">
-                                        <input class="form-feedback__input" type="text" placeholder="Comment">
-                                    </div>
-                                    <div class="form-feedback__footer form-footer">
-                                        <button class="form-footer__btn small-btn small-btn--red" type="submit">Send</button>
-                                        <p class="form-footer__agreement">
-                                            By clicking the Send button you agree to our <a class="form-footer__privacy-policy" href="#">Privacy Policy</a> terms
-                                        </p>
-                                    </div>
-                                </form>
+                                <form class="form-feedback" action="#" method="GET" id="form-contact">
+    <div class="form-feedback__item">
+        <input class="form-feedback__input" type="text" placeholder="Your Name" name="name">
+    </div>
+    <div class="form-feedback__item">
+        <label class="form-feedback__label" for="input-company">Company Name</label>
+        <input class="form-feedback__input" id="input-company" type="text" placeholder="Microsoft" name="company">
+    </div>
+    <div class="form-feedback__item">
+        <input class="form-feedback__input" type="tel" placeholder="Phone number">
+    </div>
+    <div class="form-feedback__item">
+        <input class="form-feedback__input" type="mail" placeholder="Email">
+    </div>
+    <div class="form-feedback__item">
+        <input class="form-feedback__input" type="text" placeholder="Comment" name="message">
+    </div>
+    <div class="form-feedback__footer form-footer">
+        <button class="form-footer__btn small-btn small-btn--red" type="submit">Send</button>
+        <p class="form-footer__agreement">
+            By clicking the Send button you agree to our <a class="form-footer__privacy-policy" href="#">Privacy Policy</a> terms
+        </p>
+    </div>
+</form>
                             </div>
                         </div>
                     </div>
@@ -209,30 +209,30 @@
             <div class="popup__text">Start a conversation around new business opportunities</div>
         </div>
         <div class="popup__content">
-            <form action="#" method="GET" class="form-feedback" name="form--feedback">
-                <div class="form-feedback__item">
-                    <input class="form-feedback__input" type="text" placeholder="Your Name" pattern="[A-z]*[ \t]?[A-z]*[ \t]?[A-z]*">
-                </div>
-                <div class="form-feedback__item">
-                    <label class="form-feedback__label" for="input-company--feedback">Company Name</label>
-                    <input class="form-feedback__input" id="input-company--feedback" type="text" placeholder="Microsoft">
-                </div>
-                <div class="form-feedback__item">
-                    <input class="form-feedback__input" type="tel" placeholder="Phone number" pattern="[0-9]*">
-                </div>
-                <div class="form-feedback__item">
-                    <input class="form-feedback__input" type="email" placeholder="Email">
-                </div>
-                <div class="form-feedback__item">
-                    <input class="form-feedback__input" type="text" placeholder="Comment">
-                </div>
-                <div class="form-feedback__footer form-footer">
-                    <button class="form-footer__btn small-btn small-btn--red" type="submit">Send</button>
-                    <p class="form-footer__agreement">
-                        By clicking the Send button you agree to our <a class="form-footer__privacy-policy" href="#">Privacy Policy</a> terms
-                    </p>
-                </div>
-            </form>
+            <form class="form-feedback" action="#" method="GET" id="form-feedback-popup">
+    <div class="form-feedback__item">
+        <input class="form-feedback__input" type="text" placeholder="Your Name" name="name">
+    </div>
+    <div class="form-feedback__item">
+        <label class="form-feedback__label" for="input-company">Company Name</label>
+        <input class="form-feedback__input" id="input-company" type="text" placeholder="Microsoft" name="company">
+    </div>
+    <div class="form-feedback__item">
+        <input class="form-feedback__input" type="tel" placeholder="Phone number">
+    </div>
+    <div class="form-feedback__item">
+        <input class="form-feedback__input" type="mail" placeholder="Email">
+    </div>
+    <div class="form-feedback__item">
+        <input class="form-feedback__input" type="text" placeholder="Comment" name="message">
+    </div>
+    <div class="form-feedback__footer form-footer">
+        <button class="form-footer__btn small-btn small-btn--red" type="submit">Send</button>
+        <p class="form-footer__agreement">
+            By clicking the Send button you agree to our <a class="form-footer__privacy-policy" href="#">Privacy Policy</a> terms
+        </p>
+    </div>
+</form>
         </div>
         <div class="popup__footer">
             <div class="popup__footer-item">
@@ -286,25 +286,25 @@
             <div class="popup__text">Start work with us</div>
         </div>
         <div class="popup__content">
-            <form action="#" method="GET" class="form-feedback" name="form-CV" enctype="multipart/form-data">
-                <div class="form-feedback__item">
-                    <input class="form-feedback__input" type="text" placeholder="Your Name" pattern="[A-z]*[ \t]?[A-z]*[ \t]?[A-z]*">
-                </div>
-                <div class="form-feedback__item">
-                    <label class="form-feedback__label" for="input-email--cv">Email</label>
-                    <input class="form-feedback__input" id="input-email--cv" type="email" placeholder="info@microsoft.com">
-                </div>
-                <div class="form-feedback__item">
-                    <label for="attach-CV" class="form-feedback__label-file">Attach CV</label>
-                    <input class="form-feedback__input" type="file" id="attach-CV">
-                </div>
-                <div class="form-feedback__footer form-footer">
-                    <button class="form-footer__btn small-btn small-btn--red" type="submit">Send</button>
-                    <p class="form-footer__agreement">
-                        By clicking the Send button you agree to our <a class="form-footer__privacy-policy" href="#">Privacy Policy</a> terms
-                    </p>
-                </div>
-            </form>
+            <form class="form-feedback" id="form-sendCV" action="#" method="GET" enctype="multipart/form-data">
+    <div class="form-feedback__item">
+        <input class="form-feedback__input" type="text" placeholder="Your Name">
+    </div>
+    <div class="form-feedback__item">
+        <label class="form-feedback__label" for="input-email--cv">Email</label>
+        <input class="form-feedback__input" id="input-email--cv" type="mail" placeholder="info@microsoft.com">
+    </div>
+    <div class="form-feedback__item">
+        <label for="attach-CV" class="form-feedback__label-file">Attach CV</label>
+        <input class="form-feedback__input" type="file" id="attach-CV" accept=".doc, .docx, .pdf, .txt">
+    </div>
+    <div class="form-feedback__footer form-footer">
+        <button class="form-footer__btn small-btn small-btn--red" type="submit">Send</button>
+        <p class="form-footer__agreement">
+            By clicking the Send button you agree to our <a class="form-footer__privacy-policy" href="#">Privacy Policy</a> terms
+        </p>
+    </div>
+</form>
         </div>
         <div class="popup__footer">
             <div class="popup__footer-item">
@@ -319,7 +319,7 @@
     </div>
 </div>
     </div>
-    <script src="js/app.min.js?_v=20220331183220"></script>
+    <script src="js/app.min.js?_v=20220403152540"></script>
 </body>
 
 </html>
